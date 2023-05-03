@@ -1,6 +1,6 @@
 .card {
   width: 190px;
-  height: 254px;
+  height: 300px;
   border-radius: 50px;
   background: #e0e0e0;
   box-shadow: 20px 20px 60px #bebebe,
@@ -34,6 +34,9 @@ p {
 }
 
 
+/* button {
+  float: center;
+} */
 
 
 /* ! hero section */
@@ -150,22 +153,23 @@ section p.lead-in:first-letter {
 
 /* ! read more button */
 button {
-  --color: #0077ff;
+  --color: #000000;
   font-family: inherit;
-  display: inline-block;
+  /* display: inline-block; */
   width: 6em;
   height: 2.6em;
   line-height: 2.5em;
   overflow: hidden;
   /* margin: 20px; */
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   font-size: 17px;
   z-index: 1;
   color: var(--color);
-  border: 2px solid var(--color);
+  border: 2px solid #beca66;
   border-radius: 6px;
   position: relative;
+  margin: 0 2.8rem;
 }
 
 button::before {
@@ -179,7 +183,7 @@ button::before {
 }
 
 button:hover {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 button:before {
